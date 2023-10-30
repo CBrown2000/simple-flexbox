@@ -22,6 +22,7 @@ img {
 
 /* Style the header */
 .header {
+  font-size: calc(1.5rem + 10vw);
   background-color: #CE796B;
   padding: 30px;
   text-align: center;
@@ -34,9 +35,10 @@ img {
   flex-wrap: wrap;
 }
 
-:active :hover {
+img:hover {
+  width: 101%;
+  height: 50%;
   box-shadow: #271e15;
-
 }
 
 
