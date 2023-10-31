@@ -18,6 +18,7 @@ p {
 img {
   width: 100%;
   border-radius: 10px;
+
 }
 
 /* Style the header */
@@ -31,14 +32,17 @@ img {
 /* Container for flexboxes */
 .row {
   flex-direction: row;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
 img:hover {
-  width: 101%;
-  height: 50%;
+  
+  display: inline-flexbox;
+  overflow: hidden;
+  width: 102%;
   box-shadow: #271e15;
+
 }
 
 
